@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo {
+    width: 100px;
+    margin-right: 235px;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+
+
+}
+
+.nav-link {
+    font-family: 'Futura New';
+    /*Шрифт*/
+    font-style: normal;
+    /*стиль шрифта*/
+    font-weight: 700;
+    /*Насыщенность шрифта*/
+    font-size: 20px;
+    /*Размер текста*/
+    line-height: 20px;
+    /*Междустрочный интервал*/
+    color: #C3B9B5;
+    /*Цвет текста*/
+    text-transform: uppercase;
+    /*Верхний регистр*/
+    text-decoration: none;
+
+}
+
+.title-block {
+    width: 49%;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606;
+}
